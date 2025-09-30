@@ -1,0 +1,316 @@
+{
+    "projects": [
+        {
+            "id": "tripandoo",
+            "title": "TriPandoo",
+            "description": "A personal full-stack application that intelligently generates optimized travel itineraries using AI, real-time location data, and in-app purchases. Designed, architected, and actively developing both the backend and mobile client to deliver a seamless and intuitive travel planning experience.",
+            "details": {
+                "backend": "Built a modular and scalable backend using NestJS and TypeScript. Integrated OpenAI and Groq for dynamic, intelligent itinerary generation. Implemented subscription-based monetization using Apple Pay and react-native-iap, with full receipt validation and lifecycle tracking. Utilized Mapbox APIs for geospatial data and location-aware features.",
+                "mobile": "Developed a cross-platform mobile app using React Native and Expo for fast, native-like performance. Created an intuitive, responsive UI to guide users through AI-powered travel planning. Integrated in-app purchases with subscription flows and payment handling.",
+                "website": "Created a fast, SEO-friendly website using Next.js to showcase the app. Designed and implemented responsive pages to communicate features and collect early interest."
+            },
+            "technologies": [
+                "NestJS",
+                "TypeScript",
+                "OpenAI",
+                "Groq",
+                "React Native",
+                "Expo",
+                "Mapbox",
+                "Apple Pay",
+                "react-native-iap",
+                "Next.js",
+                "AWS",
+                "Docker"
+            ],
+            "links": [
+                {
+                    "type": "Web",
+                    "url": "https://www.tripandoo.com",
+                    "label": "TriPandoo Website"
+                },
+                {
+                    "type": "iOS",
+                    "url": "https://apps.apple.com/us/app/trip-planner-aiplanmytrip/id6749009462",
+                    "label": "iOS App"
+                },
+                {
+                    "type": "Android",
+                    "url": "https://play.google.com/store/apps/details?id=com.aiplanmytrip.tripitineraryplanner",
+                    "label": "Android App"
+                }
+            ]
+        },
+        {
+            "id": "4d-audit",
+            "title": "4D Audit Tool",
+            "description": "A tool designed to audit 4D projects and provide actionable insights on security, performance, and best practices. This solution leverages modern frontend technologies alongside AI-driven workflow automation to deliver efficient and reliable project assessments.",
+            "details": {
+                "architecture": "Architected and developed the frontend using Next.js and TypeScript for a responsive and user-friendly interface. Designed and automated audit workflows with LangGraph to streamline project assessments.",
+                "ai": "Leveraged CopilotKit to accelerate development through AI-assisted coding. Applied Groq for advanced querying and in-depth analysis of 4D project data.",
+                "impact": "Continuously enhancing and scaling the solution to improve 4D project quality and maintainability."
+            },
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "LangGraph",
+                "CopilotKit",
+                "Groq",
+                "AI Agents"
+            ],
+            "links": []
+        },
+        {
+            "id": "careercard",
+            "title": "CareerCard",
+            "description": "A full-scale redesign and redevelopment of an existing digital solution for resource management, covering web, backend, and mobile platforms. The goal was to modernize the architecture, improve performance, and establish a consistent design language across all platforms.",
+            "details": {
+                "design": "Designed and implemented a reusable design system to unify the user experience across web and mobile platforms.",
+                "web": "Rebuilt the frontend from scratch using React and modern UI principles with Tailwind CSS for styling.",
+                "backend": "Re-architected and redeveloped the backend using Node.js, Express, MongoDB, and Mongoose for scalable data management.",
+                "mobile": "Rebuilt the mobile application for both iOS and Android using React Native and Expo.",
+                "quality": "Refactored legacy code and delivered new features to improve functionality and maintainability. Conducted thorough code reviews to ensure code quality and alignment with best practices."
+            },
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "React Native",
+                "Expo"
+            ],
+            "links": [
+                {
+                    "type": "Web",
+                    "url": "https://thecareercard.com/",
+                    "label": "The Career Card"
+                },
+                {
+                    "type": "iOS",
+                    "url": "https://apps.apple.com/ma/app/the-career-card/id1552212879",
+                    "label": "Career Card App"
+                }
+            ]
+        },
+        {
+            "id": "lycra",
+            "title": "Lycra",
+            "description": "A collection of applications and websites featuring a cohesive design system. Contributed to the ongoing development and maintenance of a front-end solution, focusing on building a cohesive design system and enhancing code quality through testing and refactoring.",
+            "details": {
+                "design": "Developed and maintained a scalable design system to ensure UI consistency across multiple applications and websites.",
+                "development": "Managed and enhanced the frontend of an existing application built with Twig and JavaScript. Refactored codebase and implemented new features to improve performance and user experience.",
+                "testing": "Wrote comprehensive unit, integration, and end-to-end (E2E) tests using Jest and Cypress. Conducted thorough code reviews to uphold coding standards and best practices.",
+                "tools": "Used Storybook as a centralized platform for component development, testing, and team collaboration."
+            },
+            "technologies": [
+                "Twig",
+                "JavaScript",
+                "Storybook",
+                "Sass",
+                "Jest",
+                "Cypress"
+            ],
+            "links": [
+                {
+                    "type": "Web",
+                    "url": "https://one.lycra.com",
+                    "label": "Lycra"
+                }
+            ]
+        },
+        {
+            "id": "metacard",
+            "title": "Metacard",
+            "description": "Creation of a high-performance website with a focus on smooth animations and robust testing. Built a responsive website featuring complex animations optimized to enhance user experience with comprehensive testing coverage.",
+            "details": {
+                "development": "Developed a responsive website using Next.js and TypeScript with server-side rendering for optimal performance.",
+                "animations": "Studied, created, and optimized complex animations to enhance user experience and engagement.",
+                "testing": "Wrote thorough unit, integration, and end-to-end (E2E) tests to ensure reliability across all features.",
+                "quality": "Conducted detailed code reviews to maintain code quality and consistency throughout the project."
+            },
+            "technologies": [
+                "TypeScript",
+                "Next.js",
+                "FastAPI",
+                "Google Cloud Platform"
+            ],
+            "links": [
+                {
+                    "type": "Web",
+                    "url": "https://metacard.dev",
+                    "label": "Visit Metacard"
+                }
+            ]
+        },
+        {
+            "id": "processwatch",
+            "title": "Process Watch",
+            "description": "An application that watches cloud platform emails. Developed and maintained a full-featured admin web application along with a robust backend API to support core business operations.",
+            "details": {
+                "frontend": "Built the admin web app using TypeScript, Create React App (CRA), and styled-components for modular, maintainable styling.",
+                "backend": "Designed and implemented the core REST API with Node.js, Express, MongoDB, and Mongoose to ensure efficient data management and scalability.",
+                "collaboration": "Collaborated closely between frontend and backend to deliver seamless user experiences and reliable data flows.",
+                "quality": "Emphasized clean code practices and maintainability across both frontend and backend stacks."
+            },
+            "technologies": [
+                "TypeScript",
+                "React",
+                "styled-components",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Mongoose"
+            ],
+            "links": [
+                {
+                    "type": "Web",
+                    "url": "https://app.process.watch",
+                    "label": "Process Watch"
+                }
+            ]
+        },
+        {
+            "id": "scocloud",
+            "title": "ScoCloud",
+            "description": "A plugin that runs under Kaseya. Contributed to fullstack development by building backend features and crafting frontend interfaces for an admin web application.",
+            "details": {
+                "backend": "Developed backend features using Node.js with the izm.js boilerplate to ensure scalable and maintainable code.",
+                "frontend": "Built user interfaces with React.js and TypeScript for a robust and type-safe frontend experience.",
+                "admin": "Created the admin web app leveraging TypeScript, Create React App (CRA), and styled-components for modular styling and theming.",
+                "api": "Implemented the core REST API with Node.js, Express, MongoDB, and Mongoose to provide reliable data services."
+            },
+            "technologies": [
+                "Node.js",
+                "izm.js",
+                "React.js",
+                "TypeScript",
+                "Create React App",
+                "styled-components",
+                "Express",
+                "MongoDB",
+                "Mongoose",
+                "REST API"
+            ],
+            "links": []
+        },
+        {
+            "id": "vcloud-api-connector",
+            "title": "VCloud API Connector",
+            "description": "A tool that permits the use of VCloud API dynamically. Developed a connector/package focused on secure authentication, organizational management, and flexible data center integration.",
+            "details": {
+                "authentication": "Implemented authentication features to securely manage user access within the connector.",
+                "organization": "Built functionality to handle organization management supporting multi-tenant use cases.",
+                "datacenter": "Designed seamless data center switching capabilities for improved reliability and flexibility.",
+                "architecture": "Applied Object-Oriented Programming (OOP) principles using TypeScript to ensure modularity and maintainability.",
+                "integration": "Utilized VMware documentation to align the connector with infrastructure requirements."
+            },
+            "technologies": [
+                "TypeScript",
+                "OOP",
+                "Authentication",
+                "Multi-Tenant Management",
+                "VMware"
+            ],
+            "links": []
+        },
+        {
+            "id": "4d-cli",
+            "title": "4D-CLI",
+            "description": "A command line interface tool that generates starter templates for new projects. Developed to streamline project setup across multiple platforms.",
+            "details": {
+                "templates": "Prepared and managed reusable templates for web, mobile, backend, connector, and service projects.",
+                "architecture": "Built the CLI using TypeScript with a strong focus on Object-Oriented Programming (OOP) principles for maintainability.",
+                "cli": "Leveraged the Commander library to handle command parsing and user interactions effectively."
+            },
+            "technologies": [
+                "TypeScript",
+                "OOP",
+                "Commander.js",
+                "CLI Development",
+                "Template Automation"
+            ],
+            "links": []
+        },
+        {
+            "id": "4d-connector",
+            "title": "4D Connector",
+            "description": "A tool that permits the use of a 4D database. Designed a connector to simplify interaction with 4D REST capabilities, enabling seamless integration of 4D services into web development and Node.js applications.",
+            "details": {
+                "abstraction": "Abstracts and streamlines the use of 4D REST APIs for easier consumption.",
+                "integration": "Facilitates using 4D backend functionalities within modern web and server-side environments.",
+                "productivity": "Enhances developer productivity by providing reusable, easy-to-use interfaces.",
+                "architecture": "Built with TypeScript following OOP principles for maintainability and scalability."
+            },
+            "technologies": [
+                "4D REST API",
+                "Node.js",
+                "Web Development",
+                "TypeScript",
+                "OOP",
+                "4DJS client"
+            ],
+            "links": []
+        },
+        {
+            "id": "mbm-project",
+            "title": "MBM Project",
+            "description": "Church givings management platform. Led the restyling and refactoring of the MBM web and mobile applications to enhance user experience and maintainability.",
+            "details": {
+                "web": "Redesigned and restyled the web application using Angular and TypeScript.",
+                "mobile": "Updated the mobile application interface built with Ionic and TypeScript.",
+                "backend": "Developed and maintained the backend API using Node.js to support frontend functionality."
+            },
+            "technologies": [
+                "Node.js",
+                "Angular",
+                "Ionic",
+                "TypeScript",
+                "API Development",
+                "UI/UX Restyling"
+            ],
+            "links": []
+        },
+        {
+            "id": "gam-payment",
+            "title": "GAM Payment",
+            "description": "An application for paying bills, smartphone resales and performing refills. Developed and maintained key services within the ESB architecture, including billing and smartphone resale platforms.",
+            "details": {
+                "billing": "Built and enhanced the bill payment service to ensure secure, reliable transactions.",
+                "resale": "Maintained and improved the smartphone resale service to support seamless resale operations.",
+                "refill": "Contributed to the architectural design of the refill service for scalability and efficiency.",
+                "integration": "Ensured smooth integration of all services within the ESB framework."
+            },
+            "technologies": [
+                "Node.js",
+                "Angular",
+                "TypeScript",
+                "ESB Integration",
+                "Billing Systems",
+                "Smartphone Resale",
+                "Service Architecture"
+            ],
+            "links": []
+        },
+        {
+            "id": "gam-monitoring",
+            "title": "GAM Monitoring",
+            "description": "An application for monitoring payment services. Designed and developed a solution to monitor services within a bus ESB architecture, focusing on real-time visibility and management.",
+            "details": {
+                "frontend": "Built user interfaces using Angular and TypeScript to provide intuitive monitoring dashboards.",
+                "backend": "Developed backend APIs with Spring Boot to support data collection and service orchestration.",
+                "integration": "Ensured seamless integration within the ESB architecture for efficient service monitoring."
+            },
+            "technologies": [
+                "Spring Boot",
+                "Angular",
+                "TypeScript",
+                "ESB Architecture",
+                "API Development",
+                "Service Monitoring"
+            ],
+            "links": []
+        }
+    ]
+}

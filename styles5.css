@@ -1,0 +1,24 @@
+/* Icon-only badge styles */
+.project-link-badge.icon-only {
+    padding: 0.5rem;
+    min-width: 36px;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-link-badge.icon-only svg {
+    width: 18px;
+    height: 18px;
+}
+
+.project-link-badge.icon-only span {
+    display: none;
+}
+
+/* Ensure proper spacing for icon-only badges */
+.project-links-header .project-link-badge.icon-only {
+    gap: 0;
+}
+

@@ -1,0 +1,133 @@
+{
+    "experiences": [
+        {
+            "id": "4d-2023",
+            "company": "4D",
+            "location": "Rabat, Morocco",
+            "role": "Research And Development Engineer",
+            "period": "January 2023 - Present",
+            "isCurrent": true,
+            "description": "Specialized in building fast, performant web and mobile applications. Extensively worked on integrating AI agents into user-facing products, leveraging intelligent automation to enhance user experiences.",
+            "achievements": [
+                "Designed scalable front-end architectures with React and Next.js for enterprise applications",
+                "Set up clean, maintainable codebases using TypeScript, Tailwind CSS, and modular design principles",
+                "Developed and integrated AI agents to automate complex workflows and enhance interactivity",
+                "Benchmarked and performance tuned Node.js and frontend environments for optimal performance",
+                "Wrote comprehensive unit, integration, and E2E tests with Jest, React Testing Library, and Playwright"
+            ],
+            "technologies": [
+                "React",
+                "Next.js",
+                "React Native",
+                "Tailwind CSS",
+                "Node.js",
+                "TypeScript",
+                "AI Agents",
+                "Jest",
+                "Playwright"
+            ]
+        },
+        {
+            "id": "sqli",
+            "company": "SQLI",
+            "location": "Rabat, Morocco",
+            "role": "Frontend Engineer",
+            "period": "April 2022 - December 2023",
+            "isCurrent": false,
+            "description": "Focused on building a scalable design system to support a wide range of client websites. Combined hands-on development with system architecture to drive consistency, efficiency, and maintainability across projects.",
+            "achievements": [
+                "Architected and implemented comprehensive design system adopted across multiple client websites",
+                "Built and documented reusable UI components using TypeScript and Storybook",
+                "Integrated legacy jQuery components into modern system ensuring backward compatibility",
+                "Standardized visual styles and interactions to deliver consistent user experiences at scale",
+                "Improved developer productivity through shared design tokens and clear component guidelines",
+                "Used Storybook as a centralized platform for component development, testing, and team collaboration"
+            ],
+            "technologies": [
+                "TypeScript",
+                "Storybook",
+                "jQuery",
+                "Design Systems",
+                "Component Architecture"
+            ]
+        },
+        {
+            "id": "bbles",
+            "company": "BBLES",
+            "location": "Rabat, Morocco",
+            "role": "Full Stack Engineer",
+            "period": "February 2022 - April 2022",
+            "isCurrent": false,
+            "description": "Led frontend development for a metabox platform integrating cryptocurrency and NFT functionality. Responsible for architectural design and team growth through recruitment and mentorship.",
+            "achievements": [
+                "Designed front-end architecture to support web3 features with crypto wallets and NFT interactions",
+                "Led frontend development using React, Next.js, and TypeScript",
+                "Set up and maintained scalable, maintainable codebases following best practices",
+                "Refactored legacy code for improved performance, modularity, and readability",
+                "Conducted performance benchmarking and optimization to ensure smooth UX",
+                "Actively participated in recruitment and provided mentorship to junior developers"
+            ],
+            "technologies": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Web3",
+                "Jest",
+                "Cypress",
+                "Playwright"
+            ]
+        },
+        {
+            "id": "4d-2020",
+            "company": "4D",
+            "location": "Rabat, Morocco",
+            "role": "Software Engineer",
+            "period": "April 2020 - February 2022",
+            "isCurrent": false,
+            "description": "Worked on building fast and performant web and mobile applications using a versatile stack. Contributed across both frontend and backend layers to deliver scalable, maintainable solutions.",
+            "achievements": [
+                "Developed web and mobile interfaces using React, Angular, and Ionic",
+                "Built and maintained backend services and APIs with Node.js and Express",
+                "Designed front-end architectures to support long-term scalability and code reuse",
+                "Set up and organized clean, maintainable fullstack codebases",
+                "Performed benchmarking and performance optimization across the stack",
+                "Wrote comprehensive unit, integration, and E2E tests using tools like Jest, Mocha, and Cypress"
+            ],
+            "technologies": [
+                "React",
+                "Angular",
+                "Ionic",
+                "Node.js",
+                "Express",
+                "Jest",
+                "Mocha",
+                "Cypress"
+            ]
+        },
+        {
+            "id": "weenko",
+            "company": "Weenko",
+            "location": "Remote",
+            "role": "Software Engineer",
+            "period": "July 2019 - April 2020",
+            "isCurrent": false,
+            "description": "Contributed to multiple fintech and telecom services, ranging from bill payments to smartphone resale platforms. Role spanned feature development, system integration, and backend service maintenance.",
+            "achievements": [
+                "Built a bills payment service enabling secure and scalable transactions",
+                "Maintained and enhanced smartphone resale platform and refill service",
+                "Refactored legacy code and developed new features to improve system stability and UX",
+                "Implemented and consumed REST APIs ensuring efficient data flow",
+                "Integrated services through Enterprise Service Bus (ESB) for API mediation and orchestration",
+                "Wrote and maintained comprehensive unit, integration, and E2E tests using Jest, Mocha, and Cypress"
+            ],
+            "technologies": [
+                "REST APIs",
+                "ESB",
+                "Jest",
+                "Mocha",
+                "Cypress",
+                "Fintech"
+            ]
+        }
+    ]
+}

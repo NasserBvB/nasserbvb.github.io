@@ -1,0 +1,189 @@
+/* Project Card Header with Links */
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.project-title-section {
+    flex: 1;
+}
+
+.project-links-header {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project-link-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.4);
+    border-radius: 6px;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    position: relative;
+    z-index: 10;
+}
+
+.project-link-badge:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+    border-color: var(--primary);
+}
+
+.project-link-badge.website {
+    background: rgba(99, 102, 241, 0.15);
+    border-color: rgba(99, 102, 241, 0.4);
+    color: var(--primary);
+}
+
+.project-link-badge.website:hover {
+    background: var(--primary);
+}
+
+.project-link-badge.ios {
+    background: rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.4);
+    color: var(--secondary);
+}
+
+.project-link-badge.ios:hover {
+    background: var(--secondary);
+    color: white;
+}
+
+.project-link-badge.android {
+    background: rgba(236, 72, 153, 0.15);
+    border-color: rgba(236, 72, 153, 0.4);
+    color: var(--accent);
+}
+
+.project-link-badge.android:hover {
+    background: var(--accent);
+    color: white;
+}
+
+.project-link-badge.mobile {
+    background: rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.4);
+    color: var(--secondary);
+}
+
+.project-link-badge.mobile:hover {
+    background: var(--secondary);
+    color: white;
+}
+
+.project-link-badge svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Icon styles */
+.link-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+}
+
+/* Prevent card click when clicking links */
+.project-link-badge {
+    pointer-events: auto;
+}
+
+.project-card {
+    pointer-events: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-header {
+        flex-direction: column;
+    }
+    
+    .project-links-header {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+/* Modal header links */
+.modal-header-links {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.modal-link-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background: rgba(99, 102, 241, 0.2);
+    border: 1px solid rgba(99, 102, 241, 0.5);
+    border-radius: 8px;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.modal-link-badge:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(99, 102, 241, 0.4);
+}
+
+.modal-link-badge.website {
+    background: rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.5);
+    color: var(--primary);
+}
+
+.modal-link-badge.website:hover {
+    background: var(--primary);
+}
+
+.modal-link-badge.ios {
+    background: rgba(139, 92, 246, 0.2);
+    border-color: rgba(139, 92, 246, 0.5);
+    color: var(--secondary);
+}
+
+.modal-link-badge.ios:hover {
+    background: var(--secondary);
+    color: white;
+}
+
+.modal-link-badge.android {
+    background: rgba(236, 72, 153, 0.2);
+    border-color: rgba(236, 72, 153, 0.5);
+    color: var(--accent);
+}
+
+.modal-link-badge.android:hover {
+    background: var(--accent);
+    color: white;
+}
+
+.modal-link-badge svg {
+    width: 16px;
+    height: 16px;
+}
+
