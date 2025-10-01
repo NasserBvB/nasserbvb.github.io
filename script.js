@@ -30,13 +30,13 @@ function getLinkIcon(type) {
 // Generate links HTML for card header
 function generateCardLinks(project) {
     if (!project.links || project.links.length === 0) return '';
-    
+
     const validLinks = project.links.filter(link => link.url);
     if (validLinks.length === 0) return '';
-    
+
     // Show only icons if more than one link
     const showIconOnly = validLinks.length > 1;
-    
+
     return validLinks.map(link => {
         const type = link.type || 'Website';
         const className = type.toLowerCase();
@@ -103,7 +103,7 @@ async function loadProjects() {
             card.style.animationDelay = `${index * 0.1}s`;
             card.onclick = () => openModal(project);
 
-            const technologies = project.technologies.slice(0, 5).map(t => 
+            const technologies = project.technologies.slice(0, 5).map(t =>
                 `<span class="tech-tag">${t}</span>`
             ).join('');
 
@@ -135,7 +135,7 @@ function openModal(project) {
     const modalBody = document.getElementById('modal-body');
 
     const technologies = project.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('');
-    
+
     // Generate modal header links
     let modalHeaderLinks = '';
     if (project.links && project.links.length > 0) {
@@ -144,20 +144,20 @@ function openModal(project) {
             modalHeaderLinks = `
                 <div class="modal-header-links">
                     ${validLinks.map(link => {
-                        const type = link.type || 'Website';
-                        const className = type.toLowerCase();
-                        return `
+                const type = link.type || 'Website';
+                const className = type.toLowerCase();
+                return `
                             <a href="${link.url}" target="_blank" class="modal-link-badge ${className}">
                                 ${getLinkIcon(type)}
                                 <span>${link.label || type}</span>
                             </a>
                         `;
-                    }).join('')}
+            }).join('')}
                 </div>
             `;
         }
     }
-    
+
     let detailsHTML = '';
     if (project.details) {
         for (const [key, value] of Object.entries(project.details)) {
@@ -205,6 +205,34 @@ document.getElementById('modal').addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeModal();
+    }
+});
+
+// CV Modal Functions
+function openCVModal() {
+    const modal = document.getElementById('cv-modal');
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeCVModal() {
+    const modal = document.getElementById('cv-modal');
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
+
+// Close CV modal when clicking outside
+document.addEventListener('click', function (event) {
+    const modal = document.getElementById('cv-modal');
+    if (event.target === modal) {
+        closeCVModal();
+    }
+});
+
+// Close CV modal with Escape key
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+        closeCVModal();
     }
 });
 
